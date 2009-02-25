@@ -27,7 +27,7 @@ define('DB_USER', 'specialstage');
 define('DB_PASSWORD', '12Sunset');
 
 /** MySQL hostname */
-define('DB_HOST', '127.0.0.1');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
