@@ -1,0 +1,28 @@
+a{
+	color: #0086FF;
+}
+.subcol h2{
+	color: #0086FF;
+}
+.nav2 li:hover,
+.nav2 li.sfHover,
+.nav2 li.current,
+.nav2 a:focus, .nav2 a:hover, .nav2 a:active {
+	color: #0086FF;
+}
+.featured h3 a:hover {
+	color:#0086FF;
+}
+.video-right h2{
+	color: #0086FF;
+}
+.flickr h2{
+	color: #0086FF;
+}
+.catlist h2{
+	color: #0086FF;
+	background:url(lightblue/ico-catlist.gif) center right no-repeat;
+}
+.continue{
+	background: url(lightblue/ico-arrow.gif) no-repeat left;
+}

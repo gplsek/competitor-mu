@@ -1,0 +1,20 @@
+<?php
+
+	$mar = new Marquee;
+	$siteurl = get_option("siteurl");
+	$magazine = $_POST['magazine'];
+	$marquee = $mar->get_data_for('biz');
+
+?>
+
+<? echo '<?xml version="1.0" encoding="UTF-8" ?>' ?>
+	<row>
+		<?php for($i=0; $i < count($marquee); $i++){ ?>
+			<marquee>
+				<path type="<?php echo $mar->return_filetype($marquee[$i]["image"]) ?>"><?php echo $siteurl.'/'.$marquee[$i]["image"] ?></path>
+				<caption_1><?php echo $marquee[$i]["headline"] ?></caption_1>
+				<caption_2><?php echo $marquee[$i]["subheadline"] ?></caption_2>
+				<link><?php echo $marquee[$i]["image_link"] ?></link>
+			</marquee>
+		<?php } ?>
+	</row>

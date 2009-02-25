@@ -1,0 +1,61 @@
+/*  
+
+*/
+
+/*========= FEATURED POSTS (FRONT-PAGE) =========*/
+
+.featured{
+	background: #dddddd;
+	height: 200px;
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding-right:10px;
+}
+.featured h2{
+	font-size: 11px;
+	padding: 10px 0;
+}
+.featured h3{
+	font-size: 14px;
+	padding: 0 0 10px 0;
+}
+.featured h3 a {
+	color:#000;
+}
+.featured h3 a:hover {
+	color:#FF7800;
+}
+.featured p {
+	margin-bottom:10px;
+}
+.featured-img{
+	margin: 0 10px 0 0;
+	width:350px;
+	height:200px;
+	float:left;
+	display:inline;
+}
+#ribbon{
+	width:138px;
+	height:138px;
+	float:right;
+}
+#featured-th{
+	height: 57px;
+	margin: 0 0 30px;
+}
+#featured-th img{
+	margin: 0;
+	border:none;
+}
+#featured-th .idTabs {
+	list-style:none;
+	}
+#featured-th .idTabs li {
+	float:left;
+	display:inline;
+	margin-right:12px;
+	}
+#featured-th .idTabs li.last {
+	margin-right:0px !important;
+	}
