@@ -23,7 +23,7 @@
 			   	
 				
 			   	$tabs .= '<div class="featured" id="fragment-'.$i.'">';
-			   	$tabs .=	'<div class="featured-img" style="background:url(/wp-content/themes/news/thumb.php?src="/'.$marquee[$i]["image"].'&amp;h=200&amp;w=350&amp;zc=1&amp;q=95") top left no-repeat;">
+			   	$tabs .=	'<div class="featured-img" style="background:url(/wp-content/themes/news/thumb.php?src=/'.$marquee[$i]["image"].'&amp;h=200&amp;w=350&amp;zc=1&amp;q=95) top left no-repeat;">
 				</div>';
 				$tabs .= '<h3><a rel="bookmark" href="'.$marquee[$i]["image_link"].'">'.$marquee[$i]["headline"].'</a></h3>';
 				$tabs .= '<p>'.$marquee[$i]["subheadline"].'</p>';
