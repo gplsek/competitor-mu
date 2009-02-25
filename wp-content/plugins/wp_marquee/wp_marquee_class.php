@@ -23,7 +23,7 @@
 			   	
 				
 			   	$tabs .= '<div class="featured" id="fragment-'.$i.'">';
-			   	$tabs .=	'<div class="featured-img" style="background:url(/'.$marquee[$i]["image"].') top left no-repeat;">
+			   	$tabs .=	'<div class="featured-img" style="background:url(/wp-content/themes/news/thumb.php?src="/'.$marquee[$i]["image"].'&amp;h=200&amp;w=350&amp;zc=1&amp;q=95") top left no-repeat;">
 				</div>';
 				$tabs .= '<h3><a rel="bookmark" href="'.$marquee[$i]["image_link"].'">'.$marquee[$i]["headline"].'</a></h3>';
 				$tabs .= '<p>'.$marquee[$i]["subheadline"].'</p>';
@@ -41,7 +41,7 @@
 				{
 					$tabs .= '<li>';
 				}
-				$tabs .= '<a href="#fragment-'.$i.'"><img src="/'.$marquee[$i]["image"].'" height="57" alt=""/></a>';
+				$tabs .= '<a href="#fragment-'.$i.'"><img src=/wp-content/themes/news/thumb.php?src=/'.$marquee[$i]["image"].'&amp;h=57&amp;w=100&amp;zc=1&amp;q=95" alt=""/></a>';
 				$tabs .= '</li>';
 				
 				
