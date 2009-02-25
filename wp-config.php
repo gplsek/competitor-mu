@@ -36,7 +36,7 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 define('VHOST', 'yes'); 
 $base = '/';
-define('DOMAIN_CURRENT_SITE', 'tworld.com' );
+define('DOMAIN_CURRENT_SITE', 'hotparks.com' );
 define('PATH_CURRENT_SITE', '/' );
 define('BLOGID_CURRENT_SITE', '1' );
 
